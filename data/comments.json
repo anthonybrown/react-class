@@ -1,22 +1,27 @@
 [
   {
-    "id": "1",
-    "author": "Chris Mather",
-    "text": "React is pretty cool!"
+    "author": "Chris Mathers",
+    "text": "Welcome to the React course",
+    "id": "1"
   },
   {
     "author": "Tony",
-    "text": "I'm loving react.js",
+    "text": "I'm loving react, thanks Chris!",
     "id": "2"
   },
   {
     "author": "Toby",
-    "text": "I'm a ferret",
+    "text": "I'm just a ferret",
     "id": "3"
   },
   {
     "author": "Tony",
-    "text": "Hi Toby, how's T.J doing?",
+    "text": "Hi Toby, how's T.J. doing?",
     "id": "4"
+  },
+  {
+    "author": "Toby",
+    "text": "I'm just a ferret",
+    "id": "5"
   }
 ]
