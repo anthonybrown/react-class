@@ -38,7 +38,7 @@ class CommentForm extends React.Component {
 		var author = React.findDOMNode(this.refs.author).value.trim()
 		var text   = React.findDOMNode(this.refs.text).value.trim()
 		var form   = React.findDOMNode(this.refs.form)
-		// submit to server
+		 //submit to server
 		this.props.onSubmit({ author: author, text: text })
 
 		form.reset()
@@ -79,7 +79,11 @@ class CommentBox extends React.Component {
 
 		handleNewComment(comment) {
 			var comments = this.state.comments
-			var newComments = comments.concat([comment])
+			var newComments
+			var lastId = comments.map((c) => c.id).sort().pop()
+			comment.id = lastId ? ++lastId : 1
+
+			newComments = comments.concat([comment])
 			this.setState({comments: newComments})
 
 			$.ajax({

@@ -1,22 +1,22 @@
 [
   {
+    "id": "1",
     "author": "Chris Mather",
     "text": "React is pretty cool!"
   },
   {
-    "author": "Tony Brown",
-    "text": "I love React.js"
-  },
-  {
-    "author": "Tony Brown",
-    "text": "I'm an optimist"
-  },
-  {
-    "author": "Brian",
-    "text": "I am an angular.js dev and this is awesome."
+    "author": "Tony",
+    "text": "I'm loving react.js",
+    "id": "2"
   },
   {
     "author": "Toby",
-    "text": "I'm a ferret"
+    "text": "I'm a ferret",
+    "id": "3"
+  },
+  {
+    "author": "Tony",
+    "text": "Hi Toby, how's T.J doing?",
+    "id": "4"
   }
 ]
