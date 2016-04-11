@@ -17,7 +17,7 @@ class CommentList extends React.Component {
 	render() {
 		var commentNodes = this.props.comments.map(function (comment) {
 			return (
-				<Comment author={comment.author}>
+				<Comment key={comment.id} author={comment.author}>
 					{comment.text}
 				</Comment>
 			)
@@ -98,7 +98,7 @@ class CommentBox extends React.Component {
 
 		componentDidMount() {
 			this.loadDataFromServer()
-			setInterval(this.loadDataFromServer.bind(this), 4000)
+			setInterval(this.loadDataFromServer.bind(this), 3000)
 		}
 
 	render() {

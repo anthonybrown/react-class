@@ -10,5 +10,13 @@
   {
     "author": "Tony Brown",
     "text": "I'm an optimist"
+  },
+  {
+    "author": "Brian",
+    "text": "I am an angular.js dev and this is awesome."
+  },
+  {
+    "author": "Toby",
+    "text": "I'm a ferret"
   }
 ]
